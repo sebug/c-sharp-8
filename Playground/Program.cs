@@ -47,7 +47,7 @@ namespace Playground
                 "vow"
             };
 
-            var s3 = words[1 .. ^1];
+            var s3 = words[1 .. ^3];
 
             Console.WriteLine(String.Join(" ", s3));
         }
