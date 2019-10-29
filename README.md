@@ -39,3 +39,9 @@ The compiler in the null reference exception will tell the location of where
 things got null anyway.
 
 
+	[NotNullWhen(false)]
+	public static bool IsNullOrEmpty(string? s)
+
+
+
+
