@@ -13,4 +13,23 @@ Switch expressions
 		_ => "Everything else"
 	}
 
+Deconstruct method - you can switch on what it gets deconstructed into.
+
+Property pattern is nicer.
+
+	point switch {
+		{ X: var x, Y: var y } when x > 0 && y > 0 => true,
+		_ => false
+	}
+
+Using declarations
+
+	public void After(string path)
+	{
+		using var file = File.Create(path);
+		file.WriteByte(1);
+	}
+
+static locals
+
 
