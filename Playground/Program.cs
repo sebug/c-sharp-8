@@ -13,6 +13,13 @@ namespace Playground
                 Y = 3
             };
             Console.WriteLine(p.ToString());
+            int x = 5;
+            int y = x switch
+            {
+                5 => 6,
+                _ => 7
+            };
+            Console.WriteLine(y);
         }
     }
 }

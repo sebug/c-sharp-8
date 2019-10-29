@@ -4,3 +4,13 @@ Presentation: https://docs.google.com/presentation/d/1HBZk10De83ile86_qqS5zbY-3s
 SharpLab -> C# to IL https://sharplab.io
 
 in modifier: Passed by reference, but readonly.
+
+Switch expressions
+
+	myEnum switch
+	{
+		MyEnum.NONE => "a"
+		_ => "Everything else"
+	}
+
+
