@@ -24,6 +24,17 @@ namespace Playground
             var s = "catty";
             var t = s[..^2];
             Console.WriteLine(t);
+
+            string? s2 = null;
+            if (new Random().Next(2) > 0)
+            {
+                s2 = "first";
+            }
+
+            if (s2 != null)
+            {
+                var person = new Person(s2, "lastname");
+            }
         }
     }
 }

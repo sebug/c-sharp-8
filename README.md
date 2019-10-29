@@ -34,4 +34,8 @@ static local functions - why not analyzed by the compiler?
 
 ^1 means words.Length - 1
 
+## Non-nullable types
+The compiler in the null reference exception will tell the location of where
+things got null anyway.
+
 
