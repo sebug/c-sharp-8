@@ -20,6 +20,10 @@ namespace Playground
                 _ => 7
             };
             Console.WriteLine(y);
+
+            var s = "catty";
+            var t = s[..^2];
+            Console.WriteLine(t);
         }
     }
 }

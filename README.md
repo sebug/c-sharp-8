@@ -30,6 +30,8 @@ Using declarations
 		file.WriteByte(1);
 	}
 
-static locals
+static local functions - why not analyzed by the compiler?
+
+^1 means words.Length - 1
 
 
