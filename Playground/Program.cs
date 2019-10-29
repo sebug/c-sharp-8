@@ -35,6 +35,21 @@ namespace Playground
             {
                 var person = new Person(s2, "lastname");
             }
+
+            var words = new string[]
+            {
+                "sphinx",
+                "of",
+                "black",
+                "quartz",
+                "judge",
+                "my",
+                "vow"
+            };
+
+            var s3 = words[1 .. ^1];
+
+            Console.WriteLine(String.Join(" ", s3));
         }
     }
 }
